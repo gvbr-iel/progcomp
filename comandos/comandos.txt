@@ -1,0 +1,5 @@
+// Compilación y ejecución del código
+
+g++ -O2 -std=c++17 solucion.cpp -o solucion
+
+./solucion < input.txt > output.txt
