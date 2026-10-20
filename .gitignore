@@ -1,0 +1,13 @@
+# Configuración local de VS Code
+.vscode/
+
+# Ejecutables y archivos temporales de C++
+*.exe
+*.out
+*.o 
+salida
+solucion
+
+# Archivos de prueba locales
+input.txt
+output.txt
