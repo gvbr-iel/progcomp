@@ -4,7 +4,6 @@ using namespace std;
 
 int main(){
 
-    // Optimización de I/O para programación competitiva
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
@@ -13,7 +12,7 @@ int main(){
     if (!(cin>>n)) return 0;
 
     // Se realiza la suma con todos los numeros (1+2+3+4+5+...etc)
-    long long a = n*(n+1)/2, b=0, aux;
+    long long a = n*(n+1)/2, b=0, aux; // la variable 'b' almacena la suma parcial y 'aux' el valor actual del número recibido.
 
     // Suma parcial con los valores entregados como entrada
     for (int i=0;i<n-1;i++){

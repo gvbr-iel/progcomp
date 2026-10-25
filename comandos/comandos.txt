@@ -1,5 +1,7 @@
-// Compilación y ejecución del código
+// Compilación y ejecución del código que se ejecutan en la terminal de Linux (en caso de windows usar terminal git bash)
 
+// Comando de compilación, con optimización de nivel 2 y especificando el estándar C++17
 g++ -O2 -std=c++17 solucion.cpp -o solucion
 
+// Comando de ejecución, redirigiendo la entrada desde input.txt y la salida hacia output.txt
 ./solucion < input.txt > output.txt
